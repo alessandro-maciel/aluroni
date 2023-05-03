@@ -1,46 +1,34 @@
-# Getting Started with Create React App
+# Aluroni
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um cardápio de restaurante que permite filtrar por diferentes tipos de pratos, como combos, vegano, carnes e massas. Também é possível usar um buscador para encontrar pratos específicos.
 
-## Available Scripts
+### 📋 Pré-requisitos
+ - Node.js/npm [clique no link e baixe a versão](https://nodejs.org/en/download)
 
-In the project directory, you can run:
+### 🔧 Instalação
 
-### `npm start`
+```
+    npm install
+    npm start
+```
+Executa o aplicativo no modo de desenvolvimento.\
+Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 📚 Habilidades desenvolvidas durante a criação do projeto.
+<p>Este projeto foi uma oportunidade de aprender diversos conceitos importantes para o desenvolvimento em React. Algumas das lições aprendidas incluem:</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Criação de um projeto React com Typescript do zero com Create React App
+- Utilização do normalize.css para resetar estilos padrões de navegadores
+- Configurar absolute imports para não precisar mais importar arquivos com vários níveis ('../../../')
+- Utilizar boas práticas em CSS como criar variáveis, criar arquivos para estas variáveis e para breakpoints de media-queries
+- Utilização do pacote classnames 
+- Utilização do SVGR, um pacote que vem no Create React App para importar svgs como componentes React
 
-### `npm test`
+## 🛠️ Construído com
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* [React](https://react.dev/) - Framework web
+* [Typescript](https://www.typescriptlang.org/) - Linguagem de programação
+* [Npm](https://react.dev/) - Gerenciador de dependências
+* [Classnames](https://www.npmjs.com/package/uuid) - Um utilitário JavaScript simples para unir classNames condicionalmente
+* [Sass](https://www.npmjs.com/package/sass) - Linguagem de estilo css
+* [Css modules](https://www.npmjs.com/package/typescript-plugin-css-modules) - Um plug-in de serviço de linguagem TypeScript para módulos CSS
