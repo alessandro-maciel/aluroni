@@ -21,14 +21,18 @@ Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navega
 - Utilização do normalize.css para resetar estilos padrões de navegadores
 - Configurar absolute imports para não precisar mais importar arquivos com vários níveis ('../../../')
 - Utilizar boas práticas em CSS como criar variáveis, criar arquivos para estas variáveis e para breakpoints de media-queries
-- Utilização do pacote classnames 
+- Utilização do pacote classnames para ajudar a criar classes condicionais para elementos HTML
 - Utilização do SVGR, um pacote que vem no Create React App para importar svgs como componentes React
+- Utilização do ESLint para ajudar a manter o código-fonte consistente e legível
+- Utilizar o pacote react-router-dom para poder navegar entre telas
 
 ## 🛠️ Construído com
 
 * [React](https://react.dev/) - Framework web
 * [Typescript](https://www.typescriptlang.org/) - Linguagem de programação
+* [react-router-dom](https://www.npmjs.com/package/react-router-dom) - Uma biblioteca para gerenciamento de rotas em aplicativos React
 * [Npm](https://react.dev/) - Gerenciador de dependências
 * [Classnames](https://www.npmjs.com/package/uuid) - Um utilitário JavaScript simples para unir classNames condicionalmente
 * [Sass](https://www.npmjs.com/package/sass) - Linguagem de estilo css
 * [Css modules](https://www.npmjs.com/package/typescript-plugin-css-modules) - Um plug-in de serviço de linguagem TypeScript para módulos CSS
+* [ESLint](https://www.npmjs.com/package/eslint) - Ferramenta de linting de código para JavaScript
